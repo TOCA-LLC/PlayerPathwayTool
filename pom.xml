@@ -47,6 +47,13 @@
 			<version>3.9</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/de.adorsys.psd2/xs2a-object-mapper -->
+		<dependency>
+			<groupId>de.adorsys.psd2</groupId>
+			<artifactId>xs2a-object-mapper</artifactId>
+			<version>13.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
