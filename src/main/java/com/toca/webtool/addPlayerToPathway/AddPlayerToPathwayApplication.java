@@ -22,7 +22,6 @@ public class AddPlayerToPathwayApplication {
 
 		int count = 1;
 		for(Pathway pathway : pathways){
-			System.out.print("\n" + count + ": ");
 			AddPlayerToPathway.addPlayer(count, pathway);
 			count++;
 		}

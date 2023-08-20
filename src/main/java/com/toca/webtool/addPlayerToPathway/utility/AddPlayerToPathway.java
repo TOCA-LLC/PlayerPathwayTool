@@ -45,8 +45,8 @@ public class AddPlayerToPathway {
         }
 
         if(bufferedReader != null){
-            System.out.println(url.getPath());
             int i;
+            System.out.print(record + ": ");
             while((i = bufferedReader.read()) != -1){
                 System.out.print((char) i);
             }
